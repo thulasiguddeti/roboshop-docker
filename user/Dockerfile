@@ -9,4 +9,5 @@ COPY package.json /opt/server/
 COPY server.js /opt/server/
 RUN npm install
 RUN echo Hello World
+RUN 
 CMD ["node", "server.js"]  
